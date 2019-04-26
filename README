@@ -31,9 +31,9 @@ $ ./qubic -i toy_example -d
 
 -d is important here since it tells the program that this is discrete data.
 
-Then look at a large microarray file of Ecoli (continuous data from http://m3d.bu.edu/norm/). Try to run
+Then look at a microarray file of Ecoli. Try to run
 
-$ ./qubic -i Ecoli.microarray -f .25
+$ ./qubic -i example -f .25
 
 This restricts no two output blocks overlap more than 0.25 of the size of each one. And the other parameters are default value.
 
