@@ -25,7 +25,7 @@ Based on an evaluation paper (see reference below) published at Brief Bioinforma
 
 Eren K, Deveci M, Küçüktunç O, Catalyürek UV, A comparative analysis of biclustering algorithms for gene expression data. **Brief Bioinform.**, 2013.
 
-## Usage ##
+# Usage #
 This software provides a biclustering program for microarray data. For a set of genes and a set of conditions, the program outputs a block-like structure which shows uniform pattern within the block, the block would contain only subsets of all given genes under subsets of all given conditions.
 
 Certain parts of the code uses open-source data structure library codes, including:
