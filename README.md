@@ -90,3 +90,8 @@ The program will generate a '`B.blocks.expansion`' file, containing the enlarged
 
 ## Results access ##
 The related data sets and results can be found at http://csbl.bmb.uga.edu/~maqin/bicluster/benchmark.html.
+
+## Contact ##
+
+Any questions, problems, bugs are welcome and should be dumped to
+Qin Ma <Qin.Ma@osumc.edu>
