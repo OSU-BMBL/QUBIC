@@ -19,16 +19,15 @@ The related data sets and results can be found at http://csbl.bmb.uga.edu/~maqin
 QServer: A Biclustering Server for Prediction and Assessment of Co-Expressed Gene Clusters.
 *PLoS ONE*. 2012;**7(3)**:e32660. doi: 10.1371/journal.pone.0032660
 
-## Environment
-Linux system is recommended.
-Ubuntu 18.04.2 LTS is used for testing. (5/9/2019)
 
 ## Evaluation ##
 Based on an evaluation paper (see reference below) published at Brief Bioinformatics by _Kemal Eren_ et al., QUBIC handle noise **much better** than the other biclustering programs and has the **highest** enriched bicluster ratio in real data sets.
 
 Eren K, Deveci M, Küçüktunç O, Catalyürek UV, A comparative analysis of biclustering algorithms for gene expression data. **Brief Bioinform.**, 2013.
 
-
+## Environment
+Linux system is recommended.
+Ubuntu 18.04.2 LTS is used for testing. (5/9/2019)
 
 # Usage #
 This software provides a biclustering program for microarray data. For a set of genes and a set of conditions, the program outputs a block-like structure which shows uniform pattern within the block, the block would contain only subsets of all given genes under subsets of all given conditions.
