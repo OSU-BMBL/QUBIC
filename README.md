@@ -25,21 +25,21 @@ Based on an evaluation paper (see reference below) published at Brief Bioinforma
 
 Eren K, Deveci M, Küçüktunç O, Catalyürek UV, A comparative analysis of biclustering algorithms for gene expression data. **Brief Bioinform.**, 2013.
 
-# Usage #
+## Usage ##
 This software provides a biclustering program for microarray data. For a set of genes and a set of conditions, the program outputs a block-like structure which shows uniform pattern within the block, the block would contain only subsets of all given genes under subsets of all given conditions.
 
 Certain parts of the code uses open-source data structure library codes, including:
   * fib <http://resnet.uoregon.edu/~gurney_j/jmpc/fib.html>, copyright information in fib.c
   * Mark A. Weiss's data structure codes <http://www.cs.fiu.edu/~weiss/>
 
-# Installation #
+## Installation ##
 Simply put "qubic.tar.gz" in any directory, type
 ```
 $ tar zxvf qubic.tar.gz
 ```
 enter the folder '`qubic`' and type '`make`' then the compiled codes are within the same directory as the source.
 
-# Inputs and outputs #
+## Inputs and outputs ##
 The major program in the provided package is '`qubic`', it can parse two formats of files, discrete data and continuous data, and examples for each are provided in the same folder.
 
   * To See help and look at all available options.
@@ -62,7 +62,7 @@ This restricts no two output blocks overlap more than 0.25 of the size of each o
 
 In '`.blocks`' file', you can see all the identified biclusters, especially, we use a blank line to separate the positively and the negatively (if any) correlated genes in each bicluster. As to '`.chars`' file', it provides the qualitative matrix of the microarray data for users with some details of how to discrete the data in '`.rules`' file'. You can find further details about how to represent a microarray data set with a qualitative matrix in our paper.
 
-# Parameters of QUBIC #
+## Parameters of QUBIC ##
 Parameters of QUBIC
 QUBIC has a number of parameters, namely,
   * the range `r` of possible ranks
@@ -76,7 +76,7 @@ For each of these parameters, we allow the user to adjust the default value to p
   * We have a parameter `f` to control the level of overlaps between to-be-identified biclusters (not discussed in the above algorithm); its default value is set to 1 to ensure that no two reported biclusters overlap more than `f`.
   * QUBIC also provides the option (`-d`) that a user can skip the step of using ranks to represent the actual gene expression values to go directly to the biclustering step on the provided matrix.
 
-# Advanced Usage #
+## Advanced Usage ##
 
 A new function that can expand identified biclusters in specific environment. Suppose you have two expression matrices **A** and **B**, where **B** is subset of **A**, you can extend the biclusters of **B** in the matrix **A** as following:
 
@@ -88,5 +88,5 @@ $./qubic -i A.chars -b B.blocks -s
 
 The program will generate a '`B.blocks.expansion`' file, containing the enlarged biclusters in 'B.blocks'.
 
-# Results access #
+## Results access ##
 The related data sets and results can be found at http://csbl.bmb.uga.edu/~maqin/bicluster/benchmark.html.
