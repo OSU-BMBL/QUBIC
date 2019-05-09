@@ -1,4 +1,4 @@
-# QUBIC: QUalitative BIClustering algorithm #
+# QUBIC: Qualitative BIClustering algorithm #
 ## Algorithm ##
 
 A qualitative biclustering algorithm for analyses of gene expression data.
