@@ -8,9 +8,6 @@ Biclustering extends the traditional clustering techniques by attempting to find
 QUBIC: a qualitative biclustering algorithm for analyses of gene expression data.
 *Nucleic Acids Research*. 2009;**37(15)**:e101. doi:10.1093/nar/gkp491.
 
-## Data Source ##
-The related data sets and results can be found at http://csbl.bmb.uga.edu/~maqin/bicluster/benchmark.html.
-
 
 ## Web-server ##
 **QServer**: http://csbl.bmb.uga.edu/publications/materials/ffzhou/QServer/
@@ -92,8 +89,6 @@ $./qubic -i A.chars -b B.blocks -s
 
 The program will generate a '`B.blocks.expansion`' file, containing the enlarged biclusters in 'B.blocks'.
 
-## Results access ##
-The related data sets and results can be found at http://csbl.bmb.uga.edu/~maqin/bicluster/benchmark.html.
 
 ## Contact ##
 
